@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D961AFA61A709A7B00FB54FA /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D915FA991A6C6D6F00F57917 /* libEstimoteSDK.a */; };
+		D961C44A1A7D4239007C0171 /* RadarSplash_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C42E1A7D4239007C0171 /* RadarSplash_0.jpg */; };
+		D961C44B1A7D4239007C0171 /* RadarSplash_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C42F1A7D4239007C0171 /* RadarSplash_1.jpg */; };
+		D961C44C1A7D4239007C0171 /* RadarSplash_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4301A7D4239007C0171 /* RadarSplash_10.jpg */; };
+		D961C44D1A7D4239007C0171 /* RadarSplash_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4311A7D4239007C0171 /* RadarSplash_11.jpg */; };
+		D961C44E1A7D4239007C0171 /* RadarSplash_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4321A7D4239007C0171 /* RadarSplash_12.jpg */; };
+		D961C44F1A7D4239007C0171 /* RadarSplash_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4331A7D4239007C0171 /* RadarSplash_13.jpg */; };
+		D961C4501A7D4239007C0171 /* RadarSplash_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4341A7D4239007C0171 /* RadarSplash_14.jpg */; };
+		D961C4511A7D4239007C0171 /* RadarSplash_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4351A7D4239007C0171 /* RadarSplash_15.jpg */; };
+		D961C4521A7D4239007C0171 /* RadarSplash_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4361A7D4239007C0171 /* RadarSplash_16.jpg */; };
+		D961C4531A7D4239007C0171 /* RadarSplash_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4371A7D4239007C0171 /* RadarSplash_17.jpg */; };
+		D961C4541A7D4239007C0171 /* RadarSplash_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4381A7D4239007C0171 /* RadarSplash_18.jpg */; };
+		D961C4551A7D4239007C0171 /* RadarSplash_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4391A7D4239007C0171 /* RadarSplash_19.jpg */; };
+		D961C4561A7D4239007C0171 /* RadarSplash_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C43A1A7D4239007C0171 /* RadarSplash_2.jpg */; };
+		D961C4571A7D4239007C0171 /* RadarSplash_20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C43B1A7D4239007C0171 /* RadarSplash_20.jpg */; };
+		D961C4581A7D4239007C0171 /* RadarSplash_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C43C1A7D4239007C0171 /* RadarSplash_21.jpg */; };
+		D961C4591A7D4239007C0171 /* RadarSplash_22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C43D1A7D4239007C0171 /* RadarSplash_22.jpg */; };
+		D961C45A1A7D4239007C0171 /* RadarSplash_23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C43E1A7D4239007C0171 /* RadarSplash_23.jpg */; };
+		D961C45B1A7D4239007C0171 /* RadarSplash_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C43F1A7D4239007C0171 /* RadarSplash_24.jpg */; };
+		D961C45C1A7D4239007C0171 /* RadarSplash_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4401A7D4239007C0171 /* RadarSplash_25.jpg */; };
+		D961C45D1A7D4239007C0171 /* RadarSplash_26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4411A7D4239007C0171 /* RadarSplash_26.jpg */; };
+		D961C45E1A7D4239007C0171 /* RadarSplash_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4421A7D4239007C0171 /* RadarSplash_27.jpg */; };
+		D961C45F1A7D4239007C0171 /* RadarSplash_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4431A7D4239007C0171 /* RadarSplash_3.jpg */; };
+		D961C4601A7D4239007C0171 /* RadarSplash_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4441A7D4239007C0171 /* RadarSplash_4.jpg */; };
+		D961C4611A7D4239007C0171 /* RadarSplash_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4451A7D4239007C0171 /* RadarSplash_5.jpg */; };
+		D961C4621A7D4239007C0171 /* RadarSplash_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4461A7D4239007C0171 /* RadarSplash_6.jpg */; };
+		D961C4631A7D4239007C0171 /* RadarSplash_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4471A7D4239007C0171 /* RadarSplash_7.jpg */; };
+		D961C4641A7D4239007C0171 /* RadarSplash_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4481A7D4239007C0171 /* RadarSplash_8.jpg */; };
+		D961C4651A7D4239007C0171 /* RadarSplash_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D961C4491A7D4239007C0171 /* RadarSplash_9.jpg */; };
+		D961C4701A7D4498007C0171 /* Far.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C4671A7D4498007C0171 /* Far.png */; };
+		D961C4711A7D4498007C0171 /* Immediate.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C4681A7D4498007C0171 /* Immediate.png */; };
+		D961C4721A7D4498007C0171 /* Near.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C4691A7D4498007C0171 /* Near.png */; };
+		D961C4741A7D4498007C0171 /* RingerAlert-Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C46B1A7D4498007C0171 /* RingerAlert-Icon-120.png */; };
+		D961C4751A7D4498007C0171 /* RingerAlert-Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C46C1A7D4498007C0171 /* RingerAlert-Icon-152.png */; };
+		D961C4761A7D4498007C0171 /* RingerAlert-Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C46D1A7D4498007C0171 /* RingerAlert-Icon-180.png */; };
+		D961C4771A7D4498007C0171 /* RingerAlert-Launch-Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C46E1A7D4498007C0171 /* RingerAlert-Launch-Screen.png */; };
+		D961C4781A7D4498007C0171 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = D961C46F1A7D4498007C0171 /* Unknown.png */; };
+		D99A120B1A6C42BB008EBFCB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99A11E81A6C2B19008EBFCB /* CoreLocation.framework */; };
+		D99A120C1A6C42C4008EBFCB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99A11EA1A6C2B21008EBFCB /* CoreBluetooth.framework */; };
+		D99A120D1A6C42D2008EBFCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99A11EE1A6C2B32008EBFCB /* SystemConfiguration.framework */; };
+		D99A120E1A6C42DB008EBFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99A11EC1A6C2B28008EBFCB /* Foundation.framework */; };
+		D9FB101B1A6C2858005ADC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB101A1A6C2858005ADC74 /* AppDelegate.swift */; };
+		D9FB101D1A6C2858005ADC74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB101C1A6C2858005ADC74 /* ViewController.swift */; };
+		D9FB10201A6C2858005ADC74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FB101E1A6C2858005ADC74 /* Main.storyboard */; };
+		D9FB10221A6C2858005ADC74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10211A6C2858005ADC74 /* Images.xcassets */; };
+		D9FB10251A6C2858005ADC74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10231A6C2858005ADC74 /* LaunchScreen.xib */; };
+		D9FB10311A6C2858005ADC74 /* RingerAlert_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10301A6C2858005ADC74 /* RingerAlert_2015Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9FB102B1A6C2858005ADC74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FB100D1A6C2858005ADC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9FB10141A6C2858005ADC74;
+			remoteInfo = "RingerAlert 2015";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D915FA821A6C6D6E00F57917 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		D915FA831A6C6D6E00F57917 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		D915FA841A6C6D6E00F57917 /* ESTBeaconFirmwareVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconFirmwareVO.h; sourceTree = "<group>"; };
+		D915FA851A6C6D6E00F57917 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		D915FA861A6C6D6E00F57917 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		D915FA871A6C6D6E00F57917 /* ESTBeaconUpdateConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateConfig.h; sourceTree = "<group>"; };
+		D915FA881A6C6D6E00F57917 /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		D915FA891A6C6D6E00F57917 /* ESTBeaconVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconVO.h; sourceTree = "<group>"; };
+		D915FA8A1A6C6D6E00F57917 /* ESTBulkUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBulkUpdater.h; sourceTree = "<group>"; };
+		D915FA8B1A6C6D6E00F57917 /* ESTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTConfig.h; sourceTree = "<group>"; };
+		D915FA8C1A6C6D6E00F57917 /* ESTDateRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTDateRule.h; sourceTree = "<group>"; };
+		D915FA8D1A6C6D6E00F57917 /* ESTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTDefinitions.h; sourceTree = "<group>"; };
+		D915FA8E1A6C6D6E00F57917 /* ESTFirmwareInfoVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTFirmwareInfoVO.h; sourceTree = "<group>"; };
+		D915FA8F1A6C6D6E00F57917 /* ESTMotionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTMotionRule.h; sourceTree = "<group>"; };
+		D915FA901A6C6D6E00F57917 /* ESTNearable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearable.h; sourceTree = "<group>"; };
+		D915FA911A6C6D6E00F57917 /* ESTNearableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearableManager.h; sourceTree = "<group>"; };
+		D915FA921A6C6D6E00F57917 /* ESTNearableRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearableRule.h; sourceTree = "<group>"; };
+		D915FA931A6C6D6E00F57917 /* ESTOrientationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTOrientationRule.h; sourceTree = "<group>"; };
+		D915FA941A6C6D6E00F57917 /* ESTProximityRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTProximityRule.h; sourceTree = "<group>"; };
+		D915FA951A6C6D6E00F57917 /* ESTRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTRule.h; sourceTree = "<group>"; };
+		D915FA961A6C6D6E00F57917 /* ESTTemperatureRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTemperatureRule.h; sourceTree = "<group>"; };
+		D915FA971A6C6D6E00F57917 /* ESTTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTrigger.h; sourceTree = "<group>"; };
+		D915FA981A6C6D6E00F57917 /* ESTTriggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTriggerManager.h; sourceTree = "<group>"; };
+		D915FA991A6C6D6F00F57917 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+		D961C42E1A7D4239007C0171 /* RadarSplash_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_0.jpg; sourceTree = "<group>"; };
+		D961C42F1A7D4239007C0171 /* RadarSplash_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_1.jpg; sourceTree = "<group>"; };
+		D961C4301A7D4239007C0171 /* RadarSplash_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_10.jpg; sourceTree = "<group>"; };
+		D961C4311A7D4239007C0171 /* RadarSplash_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_11.jpg; sourceTree = "<group>"; };
+		D961C4321A7D4239007C0171 /* RadarSplash_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_12.jpg; sourceTree = "<group>"; };
+		D961C4331A7D4239007C0171 /* RadarSplash_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_13.jpg; sourceTree = "<group>"; };
+		D961C4341A7D4239007C0171 /* RadarSplash_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_14.jpg; sourceTree = "<group>"; };
+		D961C4351A7D4239007C0171 /* RadarSplash_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_15.jpg; sourceTree = "<group>"; };
+		D961C4361A7D4239007C0171 /* RadarSplash_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_16.jpg; sourceTree = "<group>"; };
+		D961C4371A7D4239007C0171 /* RadarSplash_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_17.jpg; sourceTree = "<group>"; };
+		D961C4381A7D4239007C0171 /* RadarSplash_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_18.jpg; sourceTree = "<group>"; };
+		D961C4391A7D4239007C0171 /* RadarSplash_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_19.jpg; sourceTree = "<group>"; };
+		D961C43A1A7D4239007C0171 /* RadarSplash_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_2.jpg; sourceTree = "<group>"; };
+		D961C43B1A7D4239007C0171 /* RadarSplash_20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_20.jpg; sourceTree = "<group>"; };
+		D961C43C1A7D4239007C0171 /* RadarSplash_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_21.jpg; sourceTree = "<group>"; };
+		D961C43D1A7D4239007C0171 /* RadarSplash_22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_22.jpg; sourceTree = "<group>"; };
+		D961C43E1A7D4239007C0171 /* RadarSplash_23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_23.jpg; sourceTree = "<group>"; };
+		D961C43F1A7D4239007C0171 /* RadarSplash_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_24.jpg; sourceTree = "<group>"; };
+		D961C4401A7D4239007C0171 /* RadarSplash_25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_25.jpg; sourceTree = "<group>"; };
+		D961C4411A7D4239007C0171 /* RadarSplash_26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_26.jpg; sourceTree = "<group>"; };
+		D961C4421A7D4239007C0171 /* RadarSplash_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_27.jpg; sourceTree = "<group>"; };
+		D961C4431A7D4239007C0171 /* RadarSplash_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_3.jpg; sourceTree = "<group>"; };
+		D961C4441A7D4239007C0171 /* RadarSplash_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_4.jpg; sourceTree = "<group>"; };
+		D961C4451A7D4239007C0171 /* RadarSplash_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_5.jpg; sourceTree = "<group>"; };
+		D961C4461A7D4239007C0171 /* RadarSplash_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_6.jpg; sourceTree = "<group>"; };
+		D961C4471A7D4239007C0171 /* RadarSplash_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_7.jpg; sourceTree = "<group>"; };
+		D961C4481A7D4239007C0171 /* RadarSplash_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_8.jpg; sourceTree = "<group>"; };
+		D961C4491A7D4239007C0171 /* RadarSplash_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RadarSplash_9.jpg; sourceTree = "<group>"; };
+		D961C4671A7D4498007C0171 /* Far.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Far.png; sourceTree = "<group>"; };
+		D961C4681A7D4498007C0171 /* Immediate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Immediate.png; sourceTree = "<group>"; };
+		D961C4691A7D4498007C0171 /* Near.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Near.png; sourceTree = "<group>"; };
+		D961C46B1A7D4498007C0171 /* RingerAlert-Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RingerAlert-Icon-120.png"; sourceTree = "<group>"; };
+		D961C46C1A7D4498007C0171 /* RingerAlert-Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RingerAlert-Icon-152.png"; sourceTree = "<group>"; };
+		D961C46D1A7D4498007C0171 /* RingerAlert-Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RingerAlert-Icon-180.png"; sourceTree = "<group>"; };
+		D961C46E1A7D4498007C0171 /* RingerAlert-Launch-Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RingerAlert-Launch-Screen.png"; sourceTree = "<group>"; };
+		D961C46F1A7D4498007C0171 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		D99A11E81A6C2B19008EBFCB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D99A11EA1A6C2B21008EBFCB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D99A11EC1A6C2B28008EBFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D99A11EE1A6C2B32008EBFCB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D99A120A1A6C33DC008EBFCB /* EstimoteBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EstimoteBridgingHeader.h; sourceTree = "<group>"; };
+		D9FB10151A6C2858005ADC74 /* RingerAlert 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RingerAlert 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FB10191A6C2858005ADC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FB101A1A6C2858005ADC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9FB101C1A6C2858005ADC74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9FB101F1A6C2858005ADC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9FB10211A6C2858005ADC74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9FB10241A6C2858005ADC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9FB102A1A6C2858005ADC74 /* RingerAlert 2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RingerAlert 2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FB102F1A6C2858005ADC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FB10301A6C2858005ADC74 /* RingerAlert_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingerAlert_2015Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9FB10121A6C2858005ADC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961AFA61A709A7B00FB54FA /* libEstimoteSDK.a in Frameworks */,
+				D99A120E1A6C42DB008EBFCB /* Foundation.framework in Frameworks */,
+				D99A120D1A6C42D2008EBFCB /* SystemConfiguration.framework in Frameworks */,
+				D99A120C1A6C42C4008EBFCB /* CoreBluetooth.framework in Frameworks */,
+				D99A120B1A6C42BB008EBFCB /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FB10271A6C2858005ADC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D915FA801A6C6D6E00F57917 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D915FA811A6C6D6E00F57917 /* Headers */,
+				D915FA991A6C6D6F00F57917 /* libEstimoteSDK.a */,
+			);
+			name = EstimoteSDK;
+			path = "../Estimote iOS-SDK-master/EstimoteSDK";
+			sourceTree = "<group>";
+		};
+		D915FA811A6C6D6E00F57917 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D915FA821A6C6D6E00F57917 /* ESTBeacon.h */,
+				D915FA831A6C6D6E00F57917 /* ESTBeaconDefinitions.h */,
+				D915FA841A6C6D6E00F57917 /* ESTBeaconFirmwareVO.h */,
+				D915FA851A6C6D6E00F57917 /* ESTBeaconManager.h */,
+				D915FA861A6C6D6E00F57917 /* ESTBeaconRegion.h */,
+				D915FA871A6C6D6E00F57917 /* ESTBeaconUpdateConfig.h */,
+				D915FA881A6C6D6E00F57917 /* ESTBeaconUpdateInfo.h */,
+				D915FA891A6C6D6E00F57917 /* ESTBeaconVO.h */,
+				D915FA8A1A6C6D6E00F57917 /* ESTBulkUpdater.h */,
+				D915FA8B1A6C6D6E00F57917 /* ESTConfig.h */,
+				D915FA8C1A6C6D6E00F57917 /* ESTDateRule.h */,
+				D915FA8D1A6C6D6E00F57917 /* ESTDefinitions.h */,
+				D915FA8E1A6C6D6E00F57917 /* ESTFirmwareInfoVO.h */,
+				D915FA8F1A6C6D6E00F57917 /* ESTMotionRule.h */,
+				D915FA901A6C6D6E00F57917 /* ESTNearable.h */,
+				D915FA911A6C6D6E00F57917 /* ESTNearableManager.h */,
+				D915FA921A6C6D6E00F57917 /* ESTNearableRule.h */,
+				D915FA931A6C6D6E00F57917 /* ESTOrientationRule.h */,
+				D915FA941A6C6D6E00F57917 /* ESTProximityRule.h */,
+				D915FA951A6C6D6E00F57917 /* ESTRule.h */,
+				D915FA961A6C6D6E00F57917 /* ESTTemperatureRule.h */,
+				D915FA971A6C6D6E00F57917 /* ESTTrigger.h */,
+				D915FA981A6C6D6E00F57917 /* ESTTriggerManager.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		D961C42D1A7D4239007C0171 /* RadarSplash Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D961C42E1A7D4239007C0171 /* RadarSplash_0.jpg */,
+				D961C42F1A7D4239007C0171 /* RadarSplash_1.jpg */,
+				D961C4301A7D4239007C0171 /* RadarSplash_10.jpg */,
+				D961C4311A7D4239007C0171 /* RadarSplash_11.jpg */,
+				D961C4321A7D4239007C0171 /* RadarSplash_12.jpg */,
+				D961C4331A7D4239007C0171 /* RadarSplash_13.jpg */,
+				D961C4341A7D4239007C0171 /* RadarSplash_14.jpg */,
+				D961C4351A7D4239007C0171 /* RadarSplash_15.jpg */,
+				D961C4361A7D4239007C0171 /* RadarSplash_16.jpg */,
+				D961C4371A7D4239007C0171 /* RadarSplash_17.jpg */,
+				D961C4381A7D4239007C0171 /* RadarSplash_18.jpg */,
+				D961C4391A7D4239007C0171 /* RadarSplash_19.jpg */,
+				D961C43A1A7D4239007C0171 /* RadarSplash_2.jpg */,
+				D961C43B1A7D4239007C0171 /* RadarSplash_20.jpg */,
+				D961C43C1A7D4239007C0171 /* RadarSplash_21.jpg */,
+				D961C43D1A7D4239007C0171 /* RadarSplash_22.jpg */,
+				D961C43E1A7D4239007C0171 /* RadarSplash_23.jpg */,
+				D961C43F1A7D4239007C0171 /* RadarSplash_24.jpg */,
+				D961C4401A7D4239007C0171 /* RadarSplash_25.jpg */,
+				D961C4411A7D4239007C0171 /* RadarSplash_26.jpg */,
+				D961C4421A7D4239007C0171 /* RadarSplash_27.jpg */,
+				D961C4431A7D4239007C0171 /* RadarSplash_3.jpg */,
+				D961C4441A7D4239007C0171 /* RadarSplash_4.jpg */,
+				D961C4451A7D4239007C0171 /* RadarSplash_5.jpg */,
+				D961C4461A7D4239007C0171 /* RadarSplash_6.jpg */,
+				D961C4471A7D4239007C0171 /* RadarSplash_7.jpg */,
+				D961C4481A7D4239007C0171 /* RadarSplash_8.jpg */,
+				D961C4491A7D4239007C0171 /* RadarSplash_9.jpg */,
+			);
+			name = "RadarSplash Animation";
+			path = "../../../../Desktop/RadarSplash Animation";
+			sourceTree = "<group>";
+		};
+		D961C4661A7D4498007C0171 /* Markers */ = {
+			isa = PBXGroup;
+			children = (
+				D961C4671A7D4498007C0171 /* Far.png */,
+				D961C4681A7D4498007C0171 /* Immediate.png */,
+				D961C4691A7D4498007C0171 /* Near.png */,
+				D961C46B1A7D4498007C0171 /* RingerAlert-Icon-120.png */,
+				D961C46C1A7D4498007C0171 /* RingerAlert-Icon-152.png */,
+				D961C46D1A7D4498007C0171 /* RingerAlert-Icon-180.png */,
+				D961C46E1A7D4498007C0171 /* RingerAlert-Launch-Screen.png */,
+				D961C46F1A7D4498007C0171 /* Unknown.png */,
+			);
+			name = Markers;
+			path = ../../../../Desktop/Markers;
+			sourceTree = "<group>";
+		};
+		D9FB100C1A6C2858005ADC74 = {
+			isa = PBXGroup;
+			children = (
+				D915FA801A6C6D6E00F57917 /* EstimoteSDK */,
+				D99A120A1A6C33DC008EBFCB /* EstimoteBridgingHeader.h */,
+				D99A11EE1A6C2B32008EBFCB /* SystemConfiguration.framework */,
+				D99A11EC1A6C2B28008EBFCB /* Foundation.framework */,
+				D99A11EA1A6C2B21008EBFCB /* CoreBluetooth.framework */,
+				D99A11E81A6C2B19008EBFCB /* CoreLocation.framework */,
+				D9FB10171A6C2858005ADC74 /* RingerAlert 2015 */,
+				D9FB102D1A6C2858005ADC74 /* RingerAlert 2015Tests */,
+				D9FB10161A6C2858005ADC74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9FB10161A6C2858005ADC74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB10151A6C2858005ADC74 /* RingerAlert 2015.app */,
+				D9FB102A1A6C2858005ADC74 /* RingerAlert 2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9FB10171A6C2858005ADC74 /* RingerAlert 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB101A1A6C2858005ADC74 /* AppDelegate.swift */,
+				D9FB101C1A6C2858005ADC74 /* ViewController.swift */,
+				D9FB101E1A6C2858005ADC74 /* Main.storyboard */,
+				D9FB10211A6C2858005ADC74 /* Images.xcassets */,
+				D9FB10231A6C2858005ADC74 /* LaunchScreen.xib */,
+				D9FB10181A6C2858005ADC74 /* Supporting Files */,
+			);
+			path = "RingerAlert 2015";
+			sourceTree = "<group>";
+		};
+		D9FB10181A6C2858005ADC74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D961C4661A7D4498007C0171 /* Markers */,
+				D961C42D1A7D4239007C0171 /* RadarSplash Animation */,
+				D9FB10191A6C2858005ADC74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FB102D1A6C2858005ADC74 /* RingerAlert 2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB10301A6C2858005ADC74 /* RingerAlert_2015Tests.swift */,
+				D9FB102E1A6C2858005ADC74 /* Supporting Files */,
+			);
+			path = "RingerAlert 2015Tests";
+			sourceTree = "<group>";
+		};
+		D9FB102E1A6C2858005ADC74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB102F1A6C2858005ADC74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9FB10141A6C2858005ADC74 /* RingerAlert 2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FB10341A6C2858005ADC74 /* Build configuration list for PBXNativeTarget "RingerAlert 2015" */;
+			buildPhases = (
+				D9FB10111A6C2858005ADC74 /* Sources */,
+				D9FB10121A6C2858005ADC74 /* Frameworks */,
+				D9FB10131A6C2858005ADC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RingerAlert 2015";
+			productName = "RingerAlert 2015";
+			productReference = D9FB10151A6C2858005ADC74 /* RingerAlert 2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9FB10291A6C2858005ADC74 /* RingerAlert 2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FB10371A6C2858005ADC74 /* Build configuration list for PBXNativeTarget "RingerAlert 2015Tests" */;
+			buildPhases = (
+				D9FB10261A6C2858005ADC74 /* Sources */,
+				D9FB10271A6C2858005ADC74 /* Frameworks */,
+				D9FB10281A6C2858005ADC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9FB102C1A6C2858005ADC74 /* PBXTargetDependency */,
+			);
+			name = "RingerAlert 2015Tests";
+			productName = "RingerAlert 2015Tests";
+			productReference = D9FB102A1A6C2858005ADC74 /* RingerAlert 2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9FB100D1A6C2858005ADC74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = videoadventures;
+				TargetAttributes = {
+					D9FB10141A6C2858005ADC74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = EMVUA7R6KZ;
+					};
+					D9FB10291A6C2858005ADC74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D9FB10141A6C2858005ADC74;
+					};
+				};
+			};
+			buildConfigurationList = D9FB10101A6C2858005ADC74 /* Build configuration list for PBXProject "RingerAlert2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9FB100C1A6C2858005ADC74;
+			productRefGroup = D9FB10161A6C2858005ADC74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9FB10141A6C2858005ADC74 /* RingerAlert 2015 */,
+				D9FB10291A6C2858005ADC74 /* RingerAlert 2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9FB10131A6C2858005ADC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961C4651A7D4239007C0171 /* RadarSplash_9.jpg in Resources */,
+				D961C4571A7D4239007C0171 /* RadarSplash_20.jpg in Resources */,
+				D961C44D1A7D4239007C0171 /* RadarSplash_11.jpg in Resources */,
+				D961C4551A7D4239007C0171 /* RadarSplash_19.jpg in Resources */,
+				D961C4591A7D4239007C0171 /* RadarSplash_22.jpg in Resources */,
+				D961C4781A7D4498007C0171 /* Unknown.png in Resources */,
+				D961C44B1A7D4239007C0171 /* RadarSplash_1.jpg in Resources */,
+				D961C4711A7D4498007C0171 /* Immediate.png in Resources */,
+				D961C4541A7D4239007C0171 /* RadarSplash_18.jpg in Resources */,
+				D961C4771A7D4498007C0171 /* RingerAlert-Launch-Screen.png in Resources */,
+				D961C4601A7D4239007C0171 /* RadarSplash_4.jpg in Resources */,
+				D9FB10201A6C2858005ADC74 /* Main.storyboard in Resources */,
+				D961C4511A7D4239007C0171 /* RadarSplash_15.jpg in Resources */,
+				D961C44A1A7D4239007C0171 /* RadarSplash_0.jpg in Resources */,
+				D9FB10251A6C2858005ADC74 /* LaunchScreen.xib in Resources */,
+				D961C4641A7D4239007C0171 /* RadarSplash_8.jpg in Resources */,
+				D961C44E1A7D4239007C0171 /* RadarSplash_12.jpg in Resources */,
+				D961C4751A7D4498007C0171 /* RingerAlert-Icon-152.png in Resources */,
+				D961C4741A7D4498007C0171 /* RingerAlert-Icon-120.png in Resources */,
+				D961C45A1A7D4239007C0171 /* RadarSplash_23.jpg in Resources */,
+				D961C4531A7D4239007C0171 /* RadarSplash_17.jpg in Resources */,
+				D961C45C1A7D4239007C0171 /* RadarSplash_25.jpg in Resources */,
+				D961C44F1A7D4239007C0171 /* RadarSplash_13.jpg in Resources */,
+				D961C4761A7D4498007C0171 /* RingerAlert-Icon-180.png in Resources */,
+				D961C45B1A7D4239007C0171 /* RadarSplash_24.jpg in Resources */,
+				D961C4701A7D4498007C0171 /* Far.png in Resources */,
+				D961C45D1A7D4239007C0171 /* RadarSplash_26.jpg in Resources */,
+				D961C4581A7D4239007C0171 /* RadarSplash_21.jpg in Resources */,
+				D961C4721A7D4498007C0171 /* Near.png in Resources */,
+				D961C44C1A7D4239007C0171 /* RadarSplash_10.jpg in Resources */,
+				D9FB10221A6C2858005ADC74 /* Images.xcassets in Resources */,
+				D961C4521A7D4239007C0171 /* RadarSplash_16.jpg in Resources */,
+				D961C4611A7D4239007C0171 /* RadarSplash_5.jpg in Resources */,
+				D961C45F1A7D4239007C0171 /* RadarSplash_3.jpg in Resources */,
+				D961C4501A7D4239007C0171 /* RadarSplash_14.jpg in Resources */,
+				D961C4561A7D4239007C0171 /* RadarSplash_2.jpg in Resources */,
+				D961C45E1A7D4239007C0171 /* RadarSplash_27.jpg in Resources */,
+				D961C4621A7D4239007C0171 /* RadarSplash_6.jpg in Resources */,
+				D961C4631A7D4239007C0171 /* RadarSplash_7.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FB10281A6C2858005ADC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9FB10111A6C2858005ADC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FB101D1A6C2858005ADC74 /* ViewController.swift in Sources */,
+				D9FB101B1A6C2858005ADC74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FB10261A6C2858005ADC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FB10311A6C2858005ADC74 /* RingerAlert_2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9FB102C1A6C2858005ADC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9FB10141A6C2858005ADC74 /* RingerAlert 2015 */;
+			targetProxy = D9FB102B1A6C2858005ADC74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9FB101E1A6C2858005ADC74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9FB101F1A6C2858005ADC74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9FB10231A6C2858005ADC74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9FB10241A6C2858005ADC74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9FB10321A6C2858005ADC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9FB10331A6C2858005ADC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9FB10351A6C2858005ADC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/RingerAlert\\ 2015/EstimoteSDK/Headers",
+				);
+				INFOPLIST_FILE = "RingerAlert 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/imacVA/Documents/RingerAlert\\ 2015/Estimote\\ iOS-SDK-master/EstimoteSDK",
+					"/Users/imacVA/Documents/RingerAlert\\ 2015/Estimote\\ iOS-SDK-master/EstimoteSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/EstimoteBridgingHeader.h";
+			};
+			name = Debug;
+		};
+		D9FB10361A6C2858005ADC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/RingerAlert\\ 2015/EstimoteSDK/Headers",
+				);
+				INFOPLIST_FILE = "RingerAlert 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/imacVA/Documents/RingerAlert\\ 2015/Estimote\\ iOS-SDK-master/EstimoteSDK",
+					"/Users/imacVA/Documents/RingerAlert\\ 2015/Estimote\\ iOS-SDK-master/EstimoteSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/EstimoteBridgingHeader.h";
+			};
+			name = Release;
+		};
+		D9FB10381A6C2858005ADC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RingerAlert 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingerAlert 2015.app/RingerAlert 2015";
+			};
+			name = Debug;
+		};
+		D9FB10391A6C2858005ADC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RingerAlert 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingerAlert 2015.app/RingerAlert 2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9FB10101A6C2858005ADC74 /* Build configuration list for PBXProject "RingerAlert2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FB10321A6C2858005ADC74 /* Debug */,
+				D9FB10331A6C2858005ADC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FB10341A6C2858005ADC74 /* Build configuration list for PBXNativeTarget "RingerAlert 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FB10351A6C2858005ADC74 /* Debug */,
+				D9FB10361A6C2858005ADC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FB10371A6C2858005ADC74 /* Build configuration list for PBXNativeTarget "RingerAlert 2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FB10381A6C2858005ADC74 /* Debug */,
+				D9FB10391A6C2858005ADC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9FB100D1A6C2858005ADC74 /* Project object */;
+}
